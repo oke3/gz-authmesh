@@ -1,0 +1,44 @@
+{
+  "name": "@oke3/opencode-authmesh",
+  "version": "0.1.0",
+  "description": "Unified credential mesh for OpenCode providers — store, inject, rotate API keys",
+  "type": "module",
+  "bin": {
+    "authmesh": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "bun test",
+    "prepublishOnly": "bun run build && bun test"
+  },
+  "keywords": [
+    "opencode",
+    "auth",
+    "credentials",
+    "api-keys",
+    "secrets",
+    "providers",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  },
+  "author": "oke3",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oke3/opencode-authmesh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oke3/opencode-authmesh/issues"
+  },
+  "homepage": "https://github.com/oke3/opencode-authmesh#readme"
+}
