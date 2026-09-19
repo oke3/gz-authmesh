@@ -284,6 +284,21 @@ The vault directory contains:
 | [gz-remote](https://github.com/oke3/gz-remote) | Drive AI coding agents on remote machines over SSH |
 | [gz-context-engine](https://github.com/oke3/gz-context-engine) | Production-grade RAG context engine |
 
+---
+
+## Enterprise Support
+
+Need this customized for your infrastructure? We offer:
+
+- **Integration consulting** — Wire gz-authmesh into your credential management
+- **Custom configuration** — Task-specific rules, models, and workflows for your team
+- **Managed deployment** — We host and maintain your instance
+- **Training workshops** — Hands-on sessions for your engineering team
+
+[Book a 30-min call](https://www.grndxero.com/brief) · [See pricing](https://www.grndxero.com/pricing)
+
+---
+
 ## License
 
 MIT — Ground Zero LLC
