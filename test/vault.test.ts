@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 import { describe, it, expect, beforeEach, afterEach } from 'bun:test'
 import { Vault, mask } from '../src/vault.js'
 import { mkdtempSync, rmSync, statSync, readFileSync } from 'node:fs'

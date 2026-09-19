@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 /**
  * Local credential vault — stores provider API keys in a JSONL file.
  *

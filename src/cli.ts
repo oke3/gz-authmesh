@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 /**
  * authmesh CLI — unified credential mesh for OpenCode providers.
  */

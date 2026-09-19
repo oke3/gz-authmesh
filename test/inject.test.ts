@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 import { describe, it, expect } from 'bun:test'
 import { buildEnv, injectedKeys } from '../src/inject.js'
 import type { Credential } from '../src/vault.js'

@@ -1,5 +1,5 @@
 {
-  "name": "@oke3/opencode-authmesh",
+  "name": "@ground-zero-llc/gz-authmesh",
   "version": "0.1.0",
   "description": "Unified credential mesh for OpenCode providers — store, inject, rotate API keys",
   "type": "module",
@@ -31,14 +31,15 @@
     "@types/node": "^22.0.0",
     "typescript": "^5.6.0"
   },
-  "author": "oke3",
+  "author": "Ground Zero LLC <hello@ground-zero.dev>",
+  "publisher": "Ground Zero LLC",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oke3/opencode-authmesh.git"
+    "url": "git+https://github.com/oke3/gz-authmesh.git"
   },
   "bugs": {
-    "url": "https://github.com/oke3/opencode-authmesh/issues"
+    "url": "https://github.com/oke3/gz-authmesh/issues"
   },
-  "homepage": "https://github.com/oke3/opencode-authmesh#readme"
+  "homepage": "https://github.com/oke3/gz-authmesh#readme"
 }

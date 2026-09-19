@@ -1,10 +1,12 @@
-# opencode-authmesh
+# gz-authmesh
+
+> Built by [Ground Zero LLC](https://github.com/oke3) — AI infrastructure for the agentic age.
 
 Unified credential mesh for OpenCode providers — store, inject, and rotate API keys.
 
-[![CI](https://github.com/oke3/opencode-authmesh/actions/workflows/ci.yml/badge.svg)](https://github.com/oke3/opencode-authmesh/actions)
-[![npm](https://img.shields.io/npm/v/@oke3/opencode-authmesh)](https://www.npmjs.com/package/@oke3/opencode-authmesh)
-[![license](https://img.shields.io/npm/l/@oke3/opencode-authmesh)](https://github.com/oke3/opencode-authmesh/blob/main/LICENSE)
+[![CI](https://github.com/oke3/gz-authmesh/actions/workflows/ci.yml/badge.svg)](https://github.com/oke3/gz-authmesh/actions)
+[![npm](https://img.shields.io/npm/v/@ground-zero-llc/gz-authmesh)](https://www.npmjs.com/package/@ground-zero-llc/gz-authmesh)
+[![license](https://img.shields.io/npm/l/@ground-zero-llc/gz-authmesh)](https://github.com/oke3/gz-authmesh/blob/main/LICENSE)
 
 ## Why
 
@@ -13,7 +15,7 @@ OpenCode supports 75+ providers, each with its own API key scattered across env 
 ## Install
 
 ```bash
-npm install -g @oke3/opencode-authmesh
+npm install -g @ground-zero-llc/gz-authmesh
 ```
 
 ## Quick Start
@@ -88,7 +90,7 @@ authmesh run -- sh -c 'echo $OPENAI_API_KEY'
 ## Library API
 
 ```typescript
-import { Vault, buildEnv } from '@oke3/opencode-authmesh'
+import { Vault, buildEnv } from '@ground-zero-llc/gz-authmesh'
 
 const vault = new Vault('./data')
 vault.add('openai', 'OPENAI_API_KEY', 'sk-...')
@@ -105,14 +107,14 @@ Override with `AUTHMESH_DATA_DIR` environment variable.
 
 ## Related Projects
 
-- [opencode-sessions](https://github.com/oke3/opencode-sessions) — Persistent cross-session memory for OpenCode agents
-- [opencode-codemap](https://github.com/oke3/opencode-codemap) — Codebase mapping for OpenCode
-- [opencode-bench](https://github.com/oke3/opencode-bench) — Benchmarking suite for OpenCode
-- [opencode-remote](https://github.com/oke3/opencode-remote) — Drive OpenCode over SSH
-- [opencode-modelrouter](https://github.com/oke3/opencode-modelrouter) — Intelligent LLM cost router for OpenCode
-- [opencode-sessionrecall](https://github.com/oke3/opencode-sessionrecall) — AI code archaeology for OpenCode sessions
-- [opencode-learn](https://github.com/oke3/opencode-learn) — Skill-building curriculum for OpenCode agents
-- [opencode-terminalforge](https://github.com/oke3/opencode-terminalforge) — Terminal workspace for OpenCode projects
+- [gz-sessions](https://github.com/oke3/gz-sessions) — Persistent cross-session memory for OpenCode agents
+- [gz-codemap](https://github.com/oke3/gz-codemap) — Codebase mapping for OpenCode
+- [gz-bench](https://github.com/oke3/gz-bench) — Benchmarking suite for OpenCode
+- [gz-remote](https://github.com/oke3/gz-remote) — Drive OpenCode over SSH
+- [gz-modelrouter](https://github.com/oke3/gz-modelrouter) — Intelligent LLM cost router for OpenCode
+- [gz-sessionrecall](https://github.com/oke3/gz-sessionrecall) — AI code archaeology for OpenCode sessions
+- [gz-learn](https://github.com/oke3/gz-learn) — Skill-building curriculum for OpenCode agents
+- [gz-terminalforge](https://github.com/oke3/gz-terminalforge) — Terminal workspace for OpenCode projects
 
 ## License
 

@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 import { describe, it, expect, beforeEach, afterEach } from 'bun:test'
 import { PROVIDERS, getProvider, getKeyName } from '../src/providers.js'
 

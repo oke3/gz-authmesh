@@ -1,9 +1,11 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 /**
- * @oke3/opencode-authmesh — unified credential mesh for OpenCode providers.
+ * @ground-zero-llc/gz-authmesh — unified credential mesh for OpenCode providers.
  *
  * @example
  * ```typescript
- * import { Vault, buildEnv } from '@oke3/opencode-authmesh'
+ * import { Vault, buildEnv } from '@ground-zero-llc/gz-authmesh'
  *
  * const vault = new Vault('./data')
  * vault.add('openai', 'OPENAI_API_KEY', 'sk-...')

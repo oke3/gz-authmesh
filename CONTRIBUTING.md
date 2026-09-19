@@ -1,4 +1,4 @@
-# Contributing to opencode-authmesh
+# Contributing to gz-authmesh
 
 Thanks for your interest in contributing!
 

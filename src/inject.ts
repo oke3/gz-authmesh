@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 /**
  * Environment injection — build an env object from stored credentials
  * and spawn commands with the mesh's keys.
