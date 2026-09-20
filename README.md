@@ -1,6 +1,6 @@
 # gz-authmesh
 
-Unified credential mesh for AI providers — one local vault for all your API keys.
+> Unified credential mesh for AI providers — one local vault for all your API keys.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Ground Zero LLC](https://img.shields.io/badge/Built%20by-Ground%20Zero%20LLC-purple)](https://github.com/oke3)
